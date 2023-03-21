@@ -25,29 +25,12 @@ The prediction results of our dataset can be download from [prediction](https://
 -- dataset
    |-- train_data
    |   |-- | CoCo9k
-   |   |-- |-- | img
-   |   |-- |-- | gt
    |   |-- | DUTS_class
-   |   |-- |-- | img
-   |   |-- |-- | gt
    |   |-- | DUTS_class_syn
    |   |-- |-- | img_png_seamless_cloning_add_naive
-   |   |-- |-- |-- | img
-   |   |-- |-- |-- | co_gt
    |   |-- |-- | img_png_seamless_cloning_add_naive_reverse_2
-   |   |-- |-- |-- | img
-   |   |-- |-- |-- | co_gt
    |-- test_data
    |   |-- | CoCA
    |   |-- | CoSal2015
    |   |-- | CoSOD3k
-   |   |-- |-- | rgb
-   |   |-- |-- |-- | COCO_train2014_000000000110.jpg ...
-   |   |-- |-- | gt
-   |   |-- |-- |-- | COCO_train2014_000000000110.png ...
-   |   |-- test
-   |   |-- |-- | rgb
-   |   |-- |-- |-- | COCO_val2014_000000000192.jpg ...
-   |   |-- |-- | gt
-   |   |-- |-- |-- | COCO_val2014_000000000192.png ...
 ````
