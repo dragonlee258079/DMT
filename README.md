@@ -19,3 +19,43 @@ The prediction results of our dataset can be download from [prediction](https://
 - Detectron2: follow [Detectron2 installation instructions](https://detectron2.readthedocs.io/tutorials/install.html).
 - OpenCV is optional but needed by demo and visualization
 - `pip install -r requirements.txt`
+
+## Data Preparation
+````
+-- dataset
+   |-- train_data
+   |   |-- | CoCo9k
+   |   |-- |-- | img
+   |   |-- |-- |-- | 1 ...
+   |   |-- |-- | gt
+   |   |-- |-- |-- | 1 ...
+   |   |-- | DUTS_class
+   |   |-- |-- | img
+   |   |-- |-- |-- | 1 ...
+   |   |-- |-- | gt
+   |   |-- |-- |-- | 1 ...   
+   |   |-- | DUTS_class_syn
+   |   |-- |-- | img_png_seamless_cloning_add_naive
+   |   |-- |-- |-- | img
+   |   |-- |-- |-- |-- | 1 ...   
+   |   |-- |-- |-- | co_gt
+   |   |-- |-- |-- |-- | 1 ...   
+   |   |-- |-- | img_png_seamless_cloning_add_naive_reverse_2
+   |   |-- |-- |-- | img
+   |   |-- |-- |-- |-- | 1 ...   
+   |   |-- |-- |-- | co_gt
+   |   |-- |-- |-- |-- | 1 ...  
+   |-- test_data
+   |   |-- | CoCA
+   |   |-- | CoSal2015
+   |   |-- | CoSOD3k
+   |   |-- |-- | rgb
+   |   |-- |-- |-- | COCO_train2014_000000000110.jpg ...
+   |   |-- |-- | gt
+   |   |-- |-- |-- | COCO_train2014_000000000110.png ...
+   |   |-- test
+   |   |-- |-- | rgb
+   |   |-- |-- |-- | COCO_val2014_000000000192.jpg ...
+   |   |-- |-- | gt
+   |   |-- |-- |-- | COCO_val2014_000000000192.png ...
+````
