@@ -10,3 +10,11 @@ Most previous co-salient object detection works mainly focus on extracting co-sa
 The prediction results of our dataset can be download from [prediction](https://pan.baidu.com/s/1erKtadxG8NJoCMeW6fuofQ) (jjht).
 
 ![alt_text](./result.jpg)
+
+## Environment Requirement
+- Linux with Python ≥ 3.6
+- PyTorch ≥ 1.7 and [torchvision](https://github.com/pytorch/vision/) that matches the PyTorch installation.
+  Install them together at [pytorch.org](https://pytorch.org) to make sure of this. Note, please check
+  PyTorch version matches that is required by Detectron2.
+- Detectron2: follow [Detectron2 installation instructions](https://detectron2.readthedocs.io/tutorials/install.html).
+- `pip install -r requirements.txt`
