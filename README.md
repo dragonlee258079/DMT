@@ -11,7 +11,7 @@ The prediction results of our dataset can be download from [prediction](https://
 
 ![alt_text](./result.jpg)
 
-## Environment Requirement
+## Environment Configuration
 - Linux with Python ≥ 3.6
 - PyTorch ≥ 1.7 and [torchvision](https://github.com/pytorch/vision/) that matches the PyTorch installation.
   Install them together at [pytorch.org](https://pytorch.org) to make sure of this. Note, please check
