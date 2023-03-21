@@ -1,0 +1,1 @@
+CVPR2023_Final_Code: Smeasure:0.8963 || meanEm:0.9218 || adpEm:0.8954 || maxEm:0.9340 || wFmeasure:0.8666 || adpFm:0.8528 || meanFm:0.8826 || maxFm:0.9035 ||  MAE:0.0462 || fnr:0.0911

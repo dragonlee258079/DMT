@@ -1,0 +1,22 @@
+MODEL:
+  NAME: CoSOD
+#  PRETRAINED: '/disk3/lilong/Co_Saliency/pre_trained_model/vgg16_20M.caffemodel.pth'
+  ENCODER:
+    NAME: ['conv1_2', 'conv2_2', 'conv3_3', 'conv4_3', 'conv5_3']
+    CHANNEL: [64, 128, 256, 512, 512]
+    STRIDE: [1, 2, 4, 8, 8]
+  DASPP:
+    ADAP_CHANNEL: 512
+    DILATIONS: [2, 4, 8]
+  GROUP_ATTENTION:
+    NAME: ['conv5_GA']
+    CHANNEL: [512]
+    NUM_HEADS: 8
+    DROP_RATE: 0.1
+    MSP_SCALES: [1, 3, 6]
+  COFORMER_DECODER:
+    HIDDEN_DIM: 256
+    DROP_PATH: 0.1
+    NUM_HEADS: 8
+    FEEDFORWARD_DIM: 512
+    FFN_EXP: 3
