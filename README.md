@@ -35,3 +35,14 @@ Download the dataset from [Baidu Driver](https://pan.baidu.com/s/192MnRSgXSDXb0l
    |   |-- | CoSal2015
    |   |-- | CoSOD3k
 ````
+
+## Training model
+1. Download the pretrained VGG model from [Baidu Driver](https://pan.baidu.com/s/173-1VToeumXZy90cRw-Yqw)(sqd5) and put it into `./checkpoint` folder.
+2. Run `python train.py`. 
+3. The trained models with satisfactory performance will be saved in `./checkpoint/CVPR2023_Final_Code`
+
+## Testing model
+1. Download our trained model from [Baidu Driver](https://pan.baidu.com/s/1eWkb98sZl6OLkACjV_bxZw)(c87t) and put it into `./checkpoint/CVPR2023_Final_Code` folder.
+2. Run `python test.py`.
+3. The prediction images will be saved in `./prediction`. 
+4. Run `python ./evaluation/eval_from_imgs.py` to evaluate the predicted results on three datasets and the evaluation scores will be written in `./evaluation/result`.
