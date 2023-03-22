@@ -21,6 +21,7 @@ The prediction results of our dataset can be download from [prediction](https://
 - `pip install -r requirements.txt`
 
 ## Data Preparation
+Download the dataset from [Baidu Driver](https://pan.baidu.com/s/192MnRSgXSDXb0l7mJZ18ng) (cxx2) and unzip them to './dataset'. Then the structure of the './dataset' folder will show as following:
 ````
 -- dataset
    |-- train_data
