@@ -40,7 +40,7 @@ def get_args_parser():
     parser.add_argument("-model_root_dir", default="./checkpoint",
                         help="dir for saving checkpoint")
     parser.add_argument("-batch_size", default=1, type=int)
-    parser.add_argument("-device_id", type=str, default="0", help="choose cuda visiable devices")
+    parser.add_argument("-device_id", type=str, default="1", help="choose cuda visiable devices")
     parser.add_argument("-img_root", type=str, default="./dataset/train_data/DUTS_class/img")
     parser.add_argument("-co_gt_root", type=str, default="./dataset/train_data/DUTS_class/gt")
     parser.add_argument("-img_root_coco", type=str, default="./dataset/train_data/CoCo9k/img")
@@ -50,7 +50,7 @@ def get_args_parser():
     parser.add_argument("-img_rev_syn_root", type=str, default="./dataset/train_data/DUTS_class_syn/"
                                                                "img_png_seamless_cloning_add_naive_reverse_2/img")
     parser.add_argument("-co_gt_rev_syn_root", type=str, default="./dataset/train_data/DUTS_class_syn/"
-                                                                 "img_png_seamless_cloning_add_naive_reverse_2/co_gt")
+                                                                 "img_png_seamless_cloning_add_naive_reverse_2/gt")
     parser.add_argument("-test_data_root", type=str, default="./dataset/test_data")
     parser.add_argument("-test_datasets", nargs='+', default=["CoCA"])
     parser.add_argument("-save_dir", type=str, default='./prediction')
@@ -466,8 +466,8 @@ def main(args):
             logger.info('Whole iter step:{0} - epoch progress:{1}/{2} - total_loss:{3:.4f} - f_co_bce:{4:.4f} '
                         '- f_bg_bce: {5:.4f} - f_com_bce: {6:.4f} - f_iou: {7:.4f} - f_iou_com: {8:.4f} '
                         '- s_co_bce:{9:.4f} - s_bg_bce: {10:.4f} - s_com_bce: {11:.4f} - s_co_1_bce: {12:.4f} '
-                        '- s_co_2_bce: {12:.4f} - s_iou:{13:.4f} - s_iou_com:{14:.4f} '
-                        ' batch_size: {15}'.format(whole_iter_num, epoch, max_epoches,
+                        '- s_co_2_bce: {13:.4f} - s_iou:{14:.4f} - s_iou_com:{15:.4f} '
+                        ' batch_size: {16}'.format(whole_iter_num, epoch, max_epoches,
                                                    loss.item(), cri.f_co_bce, cri.f_bg_bce, cri.f_com_bce,
                                                    cri.f_iou, cri.f_iou_com, cri.s_co_bce, cri.s_bg_bce,
                                                    cri.s_com_bce, cri.s_co_1_bce, cri.s_co_2_bce,
