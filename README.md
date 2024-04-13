@@ -36,6 +36,21 @@ Download the dataset from [Baidu Driver](https://pan.baidu.com/s/192MnRSgXSDXb0l
    |   |-- | CoSOD3k
 ````
 
+-- dataset
+   |-- train_data
+   |   |-- | 1
+   |   |-- |-- | 2cfa7ea6f.jpg
+   |   |-- |-- | 2cfa7ea6f.png
+   |   |-- | 2
+   |   |-- | 3
+   |   |-- | 4
+   |-- test_data
+   |   |-- | 1
+   |   |-- | 2
+   |   |-- | 3
+   |   |-- | 4
+````
+
 ## Training model
 1. Download the pretrained VGG model from [Baidu Driver](https://pan.baidu.com/s/173-1VToeumXZy90cRw-Yqw)(sqd5) and put it into `./checkpoint` folder.
 2. Run `python train.py`. 
