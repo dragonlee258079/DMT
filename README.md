@@ -35,44 +35,6 @@ Download the dataset from [Baidu Driver](https://pan.baidu.com/s/192MnRSgXSDXb0l
    |   |-- | CoSal2015
    |   |-- | CoSOD3k
 ````
-````
--- Data
-   |-- DUTS-TE
-   |   |-- | DUTS-TE-Image
-   |   |-- |-- | ILSVRC2012_test_00000003.jpg
-   |   |-- |-- | ...
-   |   |-- | DUTS-TE-Mask
-   |   |-- |-- | ILSVRC2012_test_00000003.png
-   |   |-- |-- | ...
-   |-- ECSSD
-   |   |-- | images
-   |   |-- |-- | 0001.jpg
-   |   |-- |-- | ...
-   |   |-- | GT
-   |   |-- |-- | 0001.png
-   |   |-- |-- | ...
-   |-- HKU-IS
-   |   |-- | images
-   |   |-- | GT
-   |-- PASCAL-S
-   |   |-- | images
-   |   |-- | GT
-   |-- DUT-O
-   |   |-- | images
-   |   |-- | GT
-   |-- BSD
-   |   |-- | images
-   |   |-- | GT
-````
-````
--- data
-   |-- DUTS-TE
-   |-- ECSSD
-   |-- HKU-IS
-   |-- PASCAL-S
-   |-- DUT-O
-   |-- BSD
-````
 
 
 ## Training model
