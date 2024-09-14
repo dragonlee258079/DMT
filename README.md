@@ -36,20 +36,36 @@ Download the dataset from [Baidu Driver](https://pan.baidu.com/s/192MnRSgXSDXb0l
    |   |-- | CoSOD3k
 ````
 ````
--- dataset
-   |-- train_data
-   |   |-- | 1
-   |   |-- |-- | 2cfa7ea6f.jpg
-   |   |-- |-- | 2cfa7ea6f.png
-   |   |-- | 2
-   |   |-- | 3
-   |   |-- | 4
-   |-- test_data
-   |   |-- | 1
-   |   |-- | 2
-   |   |-- | 3
-   |   |-- | 4
+-- Data
+   |-- DUTS-TE
+   |   |-- | DUTS-TE-Image
+   |   |-- |-- | ILSVRC2012_test_00000003.jpg
+   |   |-- |-- | ...
+   |   |-- | DUTS-TE-Mask
+   |   |-- |-- | ILSVRC2012_test_00000003.png
+   |   |-- |-- | ...
+   |-- ECSSD
+   |   |-- | images
+   |   |-- |-- | 0001.jpg
+   |   |-- |-- | ...
+   |   |-- | GT
+   |   |-- |-- | 0001.png
+   |   |-- |-- | ...
+   |-- HKU-IS
+   |   |-- | images
+   |   |-- | GT
+   |-- PASCAL-S
+   |   |-- | images
+   |   |-- | GT
+   |-- DUT-O
+   |   |-- | images
+   |   |-- | GT
+   |-- BSD
+   |   |-- | images
+   |   |-- | GT
 ````
+
+
 
 ## Training model
 1. Download the pretrained VGG model from [Baidu Driver](https://pan.baidu.com/s/173-1VToeumXZy90cRw-Yqw)(sqd5) and put it into `./checkpoint` folder.
