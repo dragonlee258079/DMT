@@ -64,7 +64,7 @@ Download the dataset from [Baidu Driver](https://pan.baidu.com/s/192MnRSgXSDXb0l
    |   |-- | images
    |   |-- | GT
 ````
-
+````
 -- Data
    |-- DUTS-TE
    |-- ECSSD
