@@ -65,6 +65,14 @@ Download the dataset from [Baidu Driver](https://pan.baidu.com/s/192MnRSgXSDXb0l
    |   |-- | GT
 ````
 
+-- Data
+   |-- DUTS-TE
+   |-- ECSSD
+   |-- HKU-IS
+   |-- PASCAL-S
+   |-- DUT-O
+   |-- BSD
+````
 
 
 ## Training model
